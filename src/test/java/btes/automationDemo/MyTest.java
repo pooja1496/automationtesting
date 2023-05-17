@@ -13,8 +13,8 @@ import GlobalSQA.automationDemo.ToolsQA;
 
 
 public class MyTest {
-	
-		public static void main(String args []) throws InterruptedException {
+		@Test
+		public  void mainmethod()throws InterruptedException {
 	    HomePage homepage=new HomePage();
 		homepage.openURL("https://demoqa.com/").clickbtn();
 		Thread.sleep(2000);
