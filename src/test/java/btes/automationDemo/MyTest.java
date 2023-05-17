@@ -16,7 +16,7 @@ public class MyTest {
 		public  void mainmethod()throws InterruptedException {
 	    HomePage homepage=new HomePage();
 		homepage.openURL("https://demoqa.com/").clickbtn();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		ToolsQA tools= new ToolsQA();
 		//tools.clicktutorials();
 		tools.clickreg();
