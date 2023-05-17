@@ -1,7 +1,5 @@
 package btes.automationDemo;
 
-
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import GlobalSQA.automationDemo.AlertPage;
@@ -13,7 +11,8 @@ import GlobalSQA.automationDemo.ToolsQA;
 
 
 public class MyTest {
-		@Test
+		
+	@Test
 		public  void mainmethod()throws InterruptedException {
 	    HomePage homepage=new HomePage();
 		homepage.openURL("https://demoqa.com/").clickbtn();
